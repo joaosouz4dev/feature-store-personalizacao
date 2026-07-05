@@ -1,0 +1,20 @@
+{
+  "name": "feature-store-personalizacao",
+  "version": "1.0.0",
+  "description": "Feature store minimo para personalizacao de atendimento: registro unico de features, serving online de baixa latencia e point-in-time correctness no treino.",
+  "type": "module",
+  "main": "src/features.js",
+  "scripts": {
+    "demo": "node src/demo.js"
+  },
+  "keywords": [
+    "feature-store",
+    "mlops",
+    "personalizacao",
+    "atendimento",
+    "training-serving-skew",
+    "point-in-time"
+  ],
+  "author": "Joao Victor Souza",
+  "license": "MIT"
+}
